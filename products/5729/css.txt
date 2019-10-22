@@ -1,0 +1,93 @@
+<style>.zh_191018{
+        max-width:1180px;
+        display:flex;
+        align-items: center;
+        margin:  auto;
+        position: relative;
+        
+    }
+    .zh_191018 .icon{
+        margin: 0 10px;
+    }
+    .zh_191018 .text {
+        width: calc(100% - 270px);
+            }
+    .zh_191018 .text h2{
+           max-width: 900px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color:#151515;
+        height:30px;
+
+    }
+    .zh_191018 .submit1{
+        max-width:200px;
+        position: absolute;
+        right: 0;
+        margin-right: 10px;
+        cursor: pointer;
+                margin-left: 20px;
+        
+    }
+   
+    .zh_191018 .submit1 .row{
+        content: '';
+     position: relative;
+ display:block;
+    }
+    .zh_191018 .submit1 .row .after{
+        width: 10px;
+    height: 1px;
+
+    position: absolute;
+    transform: rotate(45deg);
+       right: 8px;
+    top: 10px;
+            }
+    .zh_191018 .submit1 .row .before{
+    width: 10px;
+    height: 1px;
+
+    position: absolute;
+    transform: rotate(-45deg);
+       right: 8px;
+    top: 17px;
+                    }
+    .zh_191018 .submit1 .bkc{
+    border-radius: 4px;
+                }
+    .zh_191018 .submit1 .zh{
+
+        height: 26px;
+        border-radius: 4px;
+        line-height: 26px;
+        padding-right: 21px;
+        border: 1px solid transparent;
+        transition: border-color,0.5s ease-in-out,background-color,0.5s ease-in-out;
+    }
+    .zh_191018 .submit1 .component-button-editor.backstage-component-editor{
+        left:unset;
+        right: 0;
+    }
+.zh_191018 .submit1 .zh .hz .blocks-button{
+            margin-left: 5px;
+    max-width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+        color: #333;
+    }
+
+@media screen and (max-width: 520px){
+                            .zh_191018 .text h2{
+                                        width:260px;
+                                    }
+                                                .zh_191018 .submit1 .zh{
+                                    padding-left: 5px;
+                                                            }               
+                                    .zh_191018 .submit1 .zh .hz .blocks-button {
+                  display: none;
+                }
+            }</style>
